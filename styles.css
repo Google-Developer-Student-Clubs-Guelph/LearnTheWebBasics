@@ -33,7 +33,7 @@ body {
     padding: 4rem 10rem;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .centered-content {
@@ -51,13 +51,11 @@ body {
 button {
     background-color: rgba(66, 133, 244, 255);
     color: #fff;
-    padding: 15px 25px;
+    padding: 15px 25px 15px 25px;
     border: none;
     cursor: pointer;
     font-size: 24px;
     border-radius: 10px;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
 }
 
 p{
