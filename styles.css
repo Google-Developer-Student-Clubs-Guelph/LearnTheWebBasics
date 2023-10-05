@@ -8,8 +8,12 @@ body {
     overflow: hidden;
 }
 
-.jokeAPI-background{
-    background-color: rgba(218, 248, 255, 255);
+p{
+    font-size: 20px;
+    color: #333;
+    max-width: 300px;
+    line-height: 1.5;
+
 }
 
 .navbar {
@@ -28,6 +32,15 @@ body {
     color: black;
 }
 
+.title {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.jokeAPI-background{
+    background-color: rgba(218, 248, 255, 255);
+}
+
 .container {
     background-color: white;
     padding: 4rem 10rem;
@@ -36,17 +49,6 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.centered-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.title {
-    font-size: 30px;
-    font-weight: 100;
-}
 
 button {
     background-color: rgba(66, 133, 244, 255);
@@ -58,10 +60,3 @@ button {
     border-radius: 10px;
 }
 
-p{
-    font-size: 20px;
-    color: #333;
-    max-width: 300px;
-    line-height: 1.5;
-
-}
